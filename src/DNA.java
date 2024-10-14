@@ -19,13 +19,13 @@ public class DNA {
         int longestCount = 0;
         int currentCount = 0;
         for(int i = 0; i < sequence.length(); i++) {
-            if(current >= STR.length()) {
-                currentCount++;
-                if(currentCount > longestCount) {
-                    longestCount = currentCount;
-                }
-            }
-            else if(sequence.charAt(i) == STR.charAt(current)) {
+//            if(current >= STR.length()) {
+//                currentCount++;
+//                if(currentCount > longestCount) {
+//                    longestCount = currentCount;
+//                }
+//            }
+            if(sequence.charAt(i) == STR.charAt(current)) {
                 current++;
             }
             else if(sequence.charAt(i) != STR.charAt(current)){
