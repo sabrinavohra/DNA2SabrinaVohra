@@ -16,18 +16,32 @@ public class DNA {
      */
     public static int STRCount(String sequence, String STR) {
         int current = 0;
-        int count = 0;
+        int longestCount = 0;
+        int currentCount = 0;
         for(int i = 0; i < sequence.length() - 1; i++) {
             if(current >= STR.length()) {
-                count++;
+                current = 0;
+                currentCount++;
+                if(currentCount >= longestCount) {
+                    longestCount = currentCount;
+                }
             }
             else if(sequence.charAt(i) == STR.charAt(current)) {
                 current++;
             }
-            else {
+            else if(sequence.charAt(i) != STR.charAt(current)){
                 current = 0;
+                currentCount = 0;
             }
         }
-        return count;
+        return longestCount;
     }
+    // Could approach with binary search -- looking through options from both sides (changing STR to be opposite to
+    // search properly
+
+    // Hash tables?
+        // Used for fast access?
+        // Seems similar to a map
+
+    //
 }
