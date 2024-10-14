@@ -49,5 +49,9 @@ public class DNA {
         // Used for fast access?
         // Seems similar to a map
 
-    //
+    // Could go through each n-letter chunk of letters?
+        // Probably would be slower because splitting would take a long time
+    // Could keep track of values in a more efficient way?
+
+    // Could find a way to skip parts where there's no possibility of an STR
 }
