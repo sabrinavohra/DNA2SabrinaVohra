@@ -10,6 +10,7 @@ Name: Sabrina Vohra
 | 10/13 | 10:30pm -  11:00pm |                                                                                                                                                 I was able to pass the test cases for 2/5 tests. I think I must be slightly off for the other two. I debugged to find where those errors might be. |
 | 10/13 |  11:00 - 11:05pm   | I switched the location of some code to see if the error might be in the placement of if-statements. I found that the other test cases became true, and the ones that were right before are now off by 1. I think it might be an issue with indexing or an issue with the linear search algorithm. |
 | 10/13 |  11:05 - 11:15pm   |                                                                                                                                                                                                                    I wrote some of my ideas down for how to approach the problem more efficiently. |
+| 10/18 |   9:25 - 9:55am    |                   I started working on the hash solution by creating a hashing method and building the STRcount() method around the hash method. I made how the hash method works slightly recursive, but didn't make the function itself recursive. To make the program work, I need to fix that. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
