@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Debugging">
+    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Worked on hash method.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.DNATest.executor": "Run",
-    "JUnit.DNATest.testBasic.executor": "Run",
+    "JUnit.DNATest.testBasic.executor": "Debug",
     "JUnit.DNATest.testChromosome22.executor": "Run",
     "JUnit.DNATest.testLargest.executor": "Run",
     "JUnit.DNATest.testMore.executor": "Run",
@@ -55,7 +56,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DNATest">
+  <component name="RunManager" selected="JUnit.DNATest.testBasic">
     <configuration name="DNATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DNA 2.0 Student Code" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,10 +108,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DNATest.testBasic" />
         <item itemvalue="JUnit.DNATest" />
         <item itemvalue="JUnit.DNATest.testChromosome22" />
         <item itemvalue="JUnit.DNATest.testLargest" />
-        <item itemvalue="JUnit.DNATest.testBasic" />
         <item itemvalue="JUnit.DNATest.testMore" />
       </list>
     </recent_temporary>
@@ -180,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728886510063</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Worked on hash method.">
+      <option name="closed" value="true" />
+      <created>1729270512814</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729270512814</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +199,18 @@
     <MESSAGE value="Linear search code." />
     <MESSAGE value="Debugging." />
     <MESSAGE value="Debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugging" />
+    <MESSAGE value="Worked on hash method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on hash method." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DNA.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

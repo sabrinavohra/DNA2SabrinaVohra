@@ -19,14 +19,14 @@ public class DNA {
     public static int STRCount(String sequence, String STR) {
         int count = 0;
         int strHash = hash(STR);
-        String currentSection = sequence.substring(0, sequence.length() - 1);
+        String currentSection = sequence.substring(0, STR.length());
         for(int i = 0; i < sequence.length(); i++) {
-            currentSection = currentSection.substring(1) + sequence.substring(sequence.charAt(i +
-                    sequence.length() - 1));
             int hashed = hash(currentSection);
             if(strHash == hashed) {
                 count++;
             }
+            char look = sequence.charAt(i+STR.length());
+            currentSection = currentSection.substring(1) + look;
         }
         return count;
     }

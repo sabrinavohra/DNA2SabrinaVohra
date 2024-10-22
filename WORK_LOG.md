@@ -11,6 +11,7 @@ Name: Sabrina Vohra
 | 10/13 |  11:00 - 11:05pm   | I switched the location of some code to see if the error might be in the placement of if-statements. I found that the other test cases became true, and the ones that were right before are now off by 1. I think it might be an issue with indexing or an issue with the linear search algorithm. |
 | 10/13 |  11:05 - 11:15pm   |                                                                                                                                                                                                                    I wrote some of my ideas down for how to approach the problem more efficiently. |
 | 10/18 |   9:25 - 9:55am    |                   I started working on the hash solution by creating a hashing method and building the STRcount() method around the hash method. I made how the hash method works slightly recursive, but didn't make the function itself recursive. To make the program work, I need to fix that. |
+| 10/21 |  10:15 - 10:35pm   |                                                            I worked through errors I was having with incrementing the current part of the sequence I was looking at. I used the debugger to see where my incrementation went wrong. I'm now working through a problem with an out of bounds error. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
