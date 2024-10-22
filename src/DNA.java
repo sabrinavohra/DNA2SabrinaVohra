@@ -25,8 +25,9 @@ public class DNA {
             if(strHash == hashed) {
                 count++;
             }
-            char look = sequence.charAt(i+STR.length());
-            currentSection = currentSection.substring(1) + look;
+            currentSection = sequence.substring(i, i + STR.length());
+//            char look = sequence.charAt(i+STR.length());
+//            currentSection = currentSection.substring(1) + look;
         }
         return count;
     }
@@ -35,6 +36,7 @@ public class DNA {
     public static int hash (String toHash) {
         int current = 0;
         int hash = 0;
+        // how to make this more efficient by only adding the last letter and removing the first
         for(int i = 0; i < toHash.length(); i++) {
             hash = hash + (toHash.charAt(i)*(int)Math.pow(RADIX, (double)i-current) % BIG_PRIME);
             current++;
