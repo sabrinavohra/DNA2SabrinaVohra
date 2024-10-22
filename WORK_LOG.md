@@ -14,6 +14,7 @@ Name: Sabrina Vohra
 | 10/21 |  10:15 - 10:35pm   |                                                            I worked through errors I was having with incrementing the current part of the sequence I was looking at. I used the debugger to see where my incrementation went wrong. I'm now working through a problem with an out of bounds error. |
 | 10/22 |  10:50 - 10:55am   |                                                                                                                                                                                                                        I tried debugging by decomplicating the current substring I was looking at. |
 | 10/22 |   3:30 - 3:55pm    |                                                                                                                                                          I added in the Horner's method algorithm and worked on subtracting first value and adding on the last one for a new part of the sequence. |
+| 10/22 |   3:55 - 4:30pm    |                                                                                                             I worked on making sure the algorithm works, removing substring wherever possible, and making the hash method more efficient. The code now works, except in the case of testLargest(). |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
