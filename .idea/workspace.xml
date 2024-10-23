@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Added Horner's.">
+    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Added work log update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,9 +110,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DNATest" />
+        <item itemvalue="JUnit.DNATest.testLargest" />
         <item itemvalue="JUnit.DNATest.testBasic" />
         <item itemvalue="JUnit.DNATest.testChromosome22" />
-        <item itemvalue="JUnit.DNATest.testLargest" />
         <item itemvalue="JUnit.DNATest.testMore" />
       </list>
     </recent_temporary>
@@ -213,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729637860791</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="It works!">
+      <option name="closed" value="true" />
+      <created>1729639625297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729639625297</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added work log update.">
+      <option name="closed" value="true" />
+      <created>1729639796134</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729639796134</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,6 +243,8 @@
     <MESSAGE value="Worked on hash method." />
     <MESSAGE value="Debugged incrementation." />
     <MESSAGE value="Added Horner's." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Horner's." />
+    <MESSAGE value="It works!" />
+    <MESSAGE value="Added work log update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added work log update." />
   </component>
 </project>
