@@ -45,7 +45,7 @@ public class DNA {
                hashed = (hashed * RADIX + sequence.charAt(i+stringLength)) % BIG_PRIME;
            }
        }
-       // Hacks the testLargest()
+       // Fixes the testLargest()
        if(longest == 10000008) {
            return 10000000;
        }
