@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Added work log update.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNA.java" afterDir="false" />
-    </list>
+    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Cleaned" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +226,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729639796134</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Tried fixing testLargest() error.">
+      <option name="closed" value="true" />
+      <created>1729653083242</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729653083242</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Wrote comments">
+      <option name="closed" value="true" />
+      <created>1729653717666</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729653717666</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Cleaned">
+      <option name="closed" value="true" />
+      <created>1729653780237</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729653780237</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,6 +265,9 @@
     <MESSAGE value="Added Horner's." />
     <MESSAGE value="It works!" />
     <MESSAGE value="Added work log update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added work log update." />
+    <MESSAGE value="Tried fixing testLargest() error." />
+    <MESSAGE value="Wrote comments" />
+    <MESSAGE value="Cleaned" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned" />
   </component>
 </project>
