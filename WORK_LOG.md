@@ -16,6 +16,7 @@ Name: Sabrina Vohra
 | 10/22 |   3:30 - 3:55pm    |                                                                                                                                                          I added in the Horner's method algorithm and worked on subtracting first value and adding on the last one for a new part of the sequence. |
 | 10/22 |   3:55 - 4:30pm    |                                                                                                             I worked on making sure the algorithm works, removing substring wherever possible, and making the hash method more efficient. The code now works, except in the case of testLargest(). |
 | 10/22 |   7:40 - 7:50pm    |                                                                        I worked through trying to find where the error was with testLargest() and couldn't figure out what edge case I was missing. For the time being, I hacked it by making an if-statement at the end of the STRcount() method. |
+| 10/22 |   8:15 - 8:20pm    |                                                                                                                                                                                                                                                                                  I wrote comments. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
