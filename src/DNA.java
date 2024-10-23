@@ -14,16 +14,15 @@ public class DNA {
    public static final int RADIX = 85;
    public static final int BIG_PRIME = 506683;
 
-   // Method returns the longest number of times a STR is repeated in a given sequence
+   // Method returns the longest number of times an STR is repeated in a given sequence
    public static int STRCount(String sequence, String STR) {
        // Holds values for longest number of STRs repeated
+       int stringLength = STR.length();
        int currentLongest = 0;
        int longest = 0;
-       int stringLength = STR.length();
        // Hashes STR and first part of sequence
        long strHash = hash(STR, 0, stringLength);
        long hashed = hash(sequence, 0, stringLength);
-       String currentSection = sequence.substring(0, stringLength);
        for(int i = 0; i < sequence.length() - stringLength; i++) {
            // If the STR and sequence hash values match, increase the current number of STRs in a row, hash the next
            // part of the sequence
@@ -42,7 +41,6 @@ public class DNA {
            else {
                currentLongest = 0;
                long firstLetter = (long)Math.pow(RADIX, stringLength - 1);
-               // No match — shift window over by 1 char
                hashed = ((hashed + BIG_PRIME) - sequence.charAt(i) * firstLetter % BIG_PRIME) % BIG_PRIME;
                hashed = (hashed * RADIX + sequence.charAt(i+stringLength)) % BIG_PRIME;
            }
